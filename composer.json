@@ -1,0 +1,30 @@
+{
+    "name": "amsoell/laravel-csv-helpers",
+    "description": "Laravel macros to make it easier to produce and export data in CSV format",
+    "keywords": [
+        "laravel",
+        "collection",
+        "response",
+        "macro",
+        "macros",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Soell",
+            "email": "andy@teamsoell.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "files": [
+            "src/csv_macros.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
